@@ -24,6 +24,9 @@ var x = setInterval(function () {
   // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("day").innerHTML = "SORRY";
+    document.getElementById("hour").innerHTML = "YOU";
+    document.getElementById("minute").innerHTML = "ARE";
+    document.getElementById("second").innerHTML = "LATE !";
   }
 }, 1000);
