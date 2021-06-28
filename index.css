@@ -1,0 +1,96 @@
+.hills {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+body {
+  background-color: hsl(235, 16%, 14%) !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.heading {
+  color: white;
+  font-size: 20px;
+  padding-top: 100px;
+  font-family: RedHatText;
+  letter-spacing: 2px;
+}
+
+.days {
+  color: hsl(237, 18%, 59%);
+  font-family: RedHatText;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.card {
+  background-color: hsl(236, 21%, 26%) !important;
+  color: hsl(345, 95%, 68%) !important;
+  font-size: 50px;
+  font-family: RedHatText;
+  font-weight: bolder;
+}
+
+.cardcomponent {
+  padding-top: 90px;
+}
+
+.fb {
+  position: fixed;
+  padding: 20px;
+  bottom: 0;
+  right: 54%;
+}
+
+.insta {
+  position: fixed;
+  padding: 20px;
+  bottom: 0;
+  right: 49%;
+}
+
+.pin {
+  position: fixed;
+  padding: 20px;
+  bottom: 0;
+  right: 44%;
+}
+
+.social:hover .fb {
+  opacity: 0.5;
+  color: hsl(345, 95%, 68%);
+}
+
+.insta:hover {
+  opacity: 0.5;
+}
+.pin:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    font-size: 12px;
+    width: 50px;
+  }
+  .days {
+    font-size: 8px;
+  }
+  .fb {
+    right: 59%;
+  }
+
+  .insta {
+    right: 40%;
+  }
+
+  .pin {
+    right: 22%;
+  }
+}
+@font-face {
+  font-family: RedHatText;
+  src: url("./fonts/RedHatText-Medium.ttf");
+}
